@@ -10,15 +10,24 @@
   "steps": [
     {
       "step": "installPlugin",
-      "pluginSlug": "instant-images"
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "instant-images"
+      }
     },
     {
       "step": "installPlugin",
-      "pluginSlug": "loremipsum"
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "loremipsum"
+      }
     },
     {
       "step": "installTheme",
-      "themeSlug": "twentytwentyfive"
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfive"
+      }
     },
     {
       "step": "activateTheme",
