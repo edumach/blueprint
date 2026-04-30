@@ -4,7 +4,7 @@
     "php": "8.3",
     "wp": "latest"
   },
-  "locale": "cs_CZ",
+  "locale": "cs",
   "features": {
     "networking": true
   },
