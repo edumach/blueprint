@@ -23,13 +23,6 @@
       }
     },
     {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "wordpress.org/themes",
-        "slug": "twentytwentyfive"
-      }
-    },
-    {
       "step": "setSiteOptions",
       "options": {
         "language": "cs_CZ",
