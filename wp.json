@@ -1,0 +1,36 @@
+{
+  "landingPage": "/wp-admin/",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "locale": "cs_CZ",
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginSlug": "instant-images"
+    },
+    {
+      "step": "installPlugin",
+      "pluginSlug": "loremipsum"
+    },
+    {
+      "step": "installTheme",
+      "themeSlug": "twentytwentyfive"
+    },
+    {
+      "step": "activateTheme",
+      "themeSlug": "twentytwentyfive"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "date_format": "j. n. Y",
+        "time_format": "G:i"
+      }
+    }
+  ]
+}
