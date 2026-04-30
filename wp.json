@@ -16,12 +16,12 @@
       }
     },
     {
-			"step": "installTheme",
-			"themeData": {
-				"resource": "wordpress.org/themes",
-				"slug": "twentytwentyfive"
-			}
-		}
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfive"
+      }
+    },
     {
       "step": "installPlugin",
       "pluginData": {
