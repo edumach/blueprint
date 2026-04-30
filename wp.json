@@ -1,9 +1,5 @@
 {
   "landingPage": "/wp-admin/",
-  "preferredVersions": {
-    "php": "8.3",
-    "wp": "latest"
-  },
   "features": {
     "networking": true
   },
@@ -25,9 +21,7 @@
     {
       "step": "setSiteOptions",
       "options": {
-        "language": "cs_CZ",
-        "date_format": "j. n. Y",
-        "time_format": "G:i"
+        "language": "cs_CZ"
       }
     }
   ]
