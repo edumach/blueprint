@@ -27,7 +27,7 @@
     {
       "step": "setSiteOptions",
       "options": {
-        "WPLANG": "cs_CZ",
+        "language": "cs_CZ",
         "date_format": "j. n. Y",
         "time_format": "G:i"
       }
